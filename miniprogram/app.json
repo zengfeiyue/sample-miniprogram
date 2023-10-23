@@ -1,0 +1,33 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "tabBar": {
+    "custom": true,
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "我的"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "usingComponents": {
+    "t-tab-bar": "tdesign-miniprogram/tab-bar/tab-bar",
+    "t-tab-bar-item": "tdesign-miniprogram/tab-bar-item/tab-bar-item"
+  },
+  "lazyCodeLoading": "requiredComponents"
+}
